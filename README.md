@@ -17,8 +17,4 @@ https://lernantino.github.io/run-buddy/
 
 Made with ❤️ by [cory burris]
 
-<<<<<<< HEAD
-# Run Buddy Inc.
-=======
 ### ©️2019 Run Buddy, Inc
->>>>>>> 4cd1d4e48fa9e74670dfd6536718e854780c9eda
