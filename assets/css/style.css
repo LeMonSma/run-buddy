@@ -144,11 +144,12 @@ button {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
   border-color: #fce138;
-  display: inline-block;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -159,11 +160,11 @@ button {
   border-color: #39a6b2;
 }
 
-/*what we do section styling*/
-
-.intro {
-  text-align: center;
+.flex-row {
+  display: flex;
 }
+
+/*what we do section styling*/
 
 .intro p {
   line-height: 1.7;
@@ -171,11 +172,11 @@ button {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /*what you do section styling*/
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -204,7 +205,6 @@ button {
 }
 
 .trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -251,7 +251,6 @@ button {
 }
 
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
