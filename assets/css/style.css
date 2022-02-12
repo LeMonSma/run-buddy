@@ -1,3 +1,10 @@
+/*Browser default override*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   color: #39a6b2;
@@ -10,12 +17,6 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
-/*Browser default override*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 /* Header Elements Style*/
@@ -47,27 +48,6 @@ header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
   font-size: 1.55vw;
-}
-/*Footer Styling*/
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-/*footer element styling*/
-footer h2 {
-  color: #024e76;
-}
-
-footer div {
-  line-height: 1.5;
-}
-
-footer a {
-  color: #024e76;
 }
 
 /* Hero syle*/
@@ -223,23 +203,27 @@ button {
   color: #024e76;
 }
 
+.trainers {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
 .trainer {
-  width: 900px;
-  margin: 0 auto 30px auto;
+  flex: 1;
+  margin: 20px;
   background: #024e76;
   color: #fce138;
-  overflow: auto;
 }
 
 .trainer img {
-  width: 35%;
-  float: left;
+  width: 100%;
 }
 
 .trainer-bio {
-  padding: 35px;
-  float: left;
-  width: 65%;
+  padding: 25px;
+  line-height: 1.3;
 }
 
 .text-left {
@@ -251,19 +235,17 @@ button {
 }
 
 .trainer-bio h3 {
-  font-size: 32px;
-  margin-bottom: 8px;
+  font-size: 28px;
 }
 
 .trainer-bio h4 {
   font-weight: lighter;
-  font-size: 26px;
-  margin-bottom: 25px;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 
 .trainer-bio p {
   font-size: 17px;
-  line-height: 1.3;
 }
 
 .contact {
@@ -302,4 +284,26 @@ button {
 
 .contact-info a {
   color: #fce138;
+}
+
+/* footer styling*/
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/*footer element styling*/
+footer h2 {
+  color: #024e76;
+}
+
+footer div {
+  line-height: 1.5;
+}
+
+footer a {
+  color: #024e76;
 }
